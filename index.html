@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>The Cookie Shoppe</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>	
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+	<script src="js/cookies.js"></script>
+	<script src=js/main.js></script>
+
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+</head>
+<body>
+<h1>The Cookie Shoppe</h1>
+<h2>Your Favorite Cookies, Baked to Order</h2>
+<form id="order_form">
+		<table>
+			<tr>
+				<td id="sugar" onclick="sugarSet();"><img src="css/img/sugar.jpg"></td>
+				<td id="chocolate" onclick="chocolateSet();"><img src="css/img/chocolate.jpg"></td>
+				<td id="lemon" onclick="lemonSet();"><img src="css/img/lemon.jpg"></td>
+			</tr>
+			<tr>
+				<td id="s_cookies">Sugar Cookies: </td>
+				<td id="c_cookies">Chocolate Cookies: </td>
+				<td id="l_cookies">Lemon Cookies: </td>
+			</tr>
+		</table>
+	</form>
+	<div id="clear">
+      <button onclick="removeCount();" type="button">Click to Remove Current Cookie Count</button>
+    </div>
+</body>
+</html>
