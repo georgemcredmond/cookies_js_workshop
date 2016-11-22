@@ -1,3 +1,8 @@
+/* A user should be able to:
+Grab a cookie flavor, which increments their cookie count by one
+Come back to the page and see how many cookies they've grabbed so far
+Clear their cookie count completely in case they're feeling guilty*/
+
 var cookie_visitor = Cookies.get('sugar');
 var sugarCount = 0;
 var cookie_visitor = Cookies.get('chocolate');
